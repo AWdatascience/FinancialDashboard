@@ -128,13 +128,15 @@ def render_header():
         - Dashboard description
         - 3 selection boxes to select: Ticker, Start Date, End Date
     """
-    st.markdown('(https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png)')
+    #note having issues with images displaying, seems to be a known issue with streamlit (https://discuss.streamlit.io/t/images-displaying-0-when-deployed-on-googles-app-engine/2456)
+    #have tried several fixes, but none will work
+    st.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png')
     #st.image('./img/Stocks.png')
     st.header('Girlboss. Gatekeep. Gaslight.')
 
     col1, col2, col3 = st.columns([1,4,2]) #width of columns and how many columns to make
     col1.write("Data source:")
-    col2.image('https://raw.githubusercontent.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/yahoo_finance.png', width=100)
+    col2.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/yahoo_finance.png', width=100)
     #col2.image('/img/yahoo_finance.png', width=100)
     
     #update financial dashboard button
