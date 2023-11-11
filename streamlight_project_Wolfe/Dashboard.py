@@ -128,14 +128,14 @@ def render_header():
         - Dashboard description
         - 3 selection boxes to select: Ticker, Start Date, End Date
     """
-    #st.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png')
-    st.write('(https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/img/Stocks.gif)')
+    st.image('https://raw.githubusercontent.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png')
+    #st.image('./img/Stocks.png')
     st.header('Girlboss. Gatekeep. Gaslight.')
 
     col1, col2, col3 = st.columns([1,4,2]) #width of columns and how many columns to make
     col1.write("Data source:")
-    col2.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/yahoo_finance.png', width=100)
-    #col2.image('(https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/img/yahoo_finance.gif)', width=100)
+    col2.image('https://raw.githubusercontent.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/yahoo_finance.png', width=100)
+    #col2.image('/img/yahoo_finance.png', width=100)
     
     #update financial dashboard button
     if col3.button("Update data"):
