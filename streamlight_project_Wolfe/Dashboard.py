@@ -128,7 +128,8 @@ def render_header():
         - Dashboard description
         - 3 selection boxes to select: Ticker, Start Date, End Date
     """
-    st.image('./Stocks.png')
+    st.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png')
+    #st.image('./Stocks.png')
     st.header('Girlboss. Gatekeep. Gaslight.')
 
     col1, col2, col3 = st.columns([1,4,2]) #width of columns and how many columns to make
