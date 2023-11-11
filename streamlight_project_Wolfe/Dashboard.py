@@ -128,7 +128,7 @@ def render_header():
         - Dashboard description
         - 3 selection boxes to select: Ticker, Start Date, End Date
     """
-    st.image('https://raw.githubusercontent.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png')
+    st.markdown('(https://raw.githubusercontent.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/Stocks.png)')
     #st.image('./img/Stocks.png')
     st.header('Girlboss. Gatekeep. Gaslight.')
 
