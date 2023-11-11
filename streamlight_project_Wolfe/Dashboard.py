@@ -134,8 +134,8 @@ def render_header():
 
     col1, col2, col3 = st.columns([1,4,2]) #width of columns and how many columns to make
     col1.write("Data source:")
-    #col2.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/yahoo_finance.png', width=100)
-    col2.image('./img/yahoo_finance.png', width=100)
+    col2.image('https://github.com/AWdatascience/FinancialDashboard/blob/main/streamlight_project_Wolfe/yahoo_finance.png', width=100)
+    #col2.image('./img/yahoo_finance.png', width=100)
     
     #update financial dashboard button
     if col3.button("Update data"):
